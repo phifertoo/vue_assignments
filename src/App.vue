@@ -6,6 +6,7 @@
         <button @click="selectedComponent = 'appAuthor'">Author</button>
         <button @click="selectedComponent = 'appNew'">New</button>
         <button @click="selectedComponent = 'appAssignment16'">Assginment 16</button>
+        <button @click="selectedComponent = 'appTheLearningResource'">The Learning Resource</button>
         <hr />
         <p>{{ selectedComponent}}</p>
         <!-- <app-quote>
@@ -25,6 +26,7 @@ import Quote from "./components/Quote.vue";
 import Author from "./components/Author";
 import New from "./components/New";
 import Assignment16 from "./assignment16/Home";
+import theLearningResource from "./theLearningResource/Home";
 
 export default {
   name: "app",
@@ -39,6 +41,7 @@ export default {
     appAuthor: Author,
     appNew: New,
     appAssignment16: Assignment16,
+    appTheLearningResource: theLearningResource,
   },
 };
 </script>
