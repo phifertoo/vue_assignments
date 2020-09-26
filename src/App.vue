@@ -13,9 +13,6 @@
         </button>
         <button @click="selectedComponent = 'appFormsHome'">Forms Home</button>
         <button @click="selectedComponent = 'appHttpHome'">HTTP Home</button>
-        <button @click="selectedComponent = 'appRoutingHome'">
-          Routing Home
-        </button>
         <hr />
         <p>{{ selectedComponent }}</p>
         <!-- <app-quote>
@@ -38,7 +35,6 @@ import Assignment16 from "./assignment16/Home";
 import theLearningResource from "./theLearningResource/Home";
 import FormsHome from "./forms/FormsHome";
 import HttpHome from "./http/HttpHome";
-import RoutingHome from "./routing/RoutingHome";
 
 export default {
   name: "app",
@@ -56,7 +52,6 @@ export default {
     appTheLearningResource: theLearningResource,
     appFormsHome: FormsHome,
     appHttpHome: HttpHome,
-    appRoutingHome: RoutingHome,
   },
 };
 </script>
